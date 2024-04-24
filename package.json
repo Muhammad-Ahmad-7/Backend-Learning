@@ -1,0 +1,16 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "A professional setup of Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "project",
+    "professional"
+  ],
+  "author": "Muhammad Ahmad",
+  "license": "ISC"
+}
