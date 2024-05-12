@@ -1,11 +1,11 @@
 import { Router } from "express";
-import { verifyJWT } from "../middlewares/auth.middlewares";
+import { verifyJWT } from "../middlewares/auth.middlewares.js";
 import {
   addComment,
   deleteComment,
   getVideoComments,
   updateComment,
-} from "../controllers/comment.controllers";
+} from "../controllers/comment.controllers.js";
 
 const router = Router();
 router.use(verifyJWT);

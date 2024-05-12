@@ -11,6 +11,7 @@ const addComment = asyncHanlder(async (req, res) => {
   // now get the comment content from the req
   // create a new mongo db comment doc and store the required information
 
+  console.log("In addComment");
   const { videoId } = req.params;
   const userId = req.user?._id;
   const { content } = req.body;

@@ -44,8 +44,8 @@ const registerUser = asyncHanlder(async (req, res) => {
   //   ) {
   //     throw new ApiError(400, "All fields are required");
   //   }
-  // simple but good way
 
+  // simple but good way
   if (
     !fullname.trim() ||
     !username.trim() ||
